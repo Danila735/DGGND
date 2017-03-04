@@ -11,12 +11,6 @@ int main()
 	char g[20]; int i, m, t; int n; 
 	char str[50000]; 
 
-	cout << "¬ведите текст" << endl; 
-	ofstream fout("C:\\cppstudio.txt"); 
-	cin.getline(str, 50000); 
-	fout << str; 
-	fout << ' ';
-	fout.close(); 
 	
 	ifstream fin("\C:\\cppstudio.txt"); 
 	fin.getline(b, 50000); 
